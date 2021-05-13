@@ -70,6 +70,5 @@ function countUniqueValues(arr) {
       right++;
     }
   }
-  console.log(left + 1);
   return left + 1;
 }
