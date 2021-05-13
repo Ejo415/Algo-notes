@@ -52,3 +52,7 @@
 
 //     return true;
 //   }
+
+// Multiple Pointers
+
+// Implement a function called countUniqueValues which accepts a sorted Array, and counts the unique values in the Array. There can be negative numbers in the Array, but it will always be sorted.
