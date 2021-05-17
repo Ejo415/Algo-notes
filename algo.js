@@ -89,3 +89,21 @@ function validAnagram(str1, str2) {
 // }
 
 // 'Write a function called sameFreqency. Given two positive integers find out of the numbers have the same frequency of digits. Must be O(n) '
+
+function sameFrequency(int1, int2) {
+  let num1 = {};
+  let num2 = {};
+  for (let number of int1) {
+    num1[number] = (num1[number] || 0) + 1;
+  }
+  for (let number of int2) {
+    num2[number] = (num2[number] || 0) + 1;
+  }
+
+  for (let key in num1) {
+    if (num1[key] !== num2[key]) {
+      return false;
+    }
+  }
+  return true;
+}
