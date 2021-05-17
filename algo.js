@@ -87,3 +87,5 @@ function validAnagram(str1, str2) {
 //     }
 //     return i + 1;
 // }
+
+// 'Write a function called sameFreqency. Given two positive integers find out of the numbers have the same frequency of digits. Must be O(n) '
