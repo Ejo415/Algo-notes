@@ -111,3 +111,15 @@ function sameFrequency(int1, int2) {
 }
 
 // 'Write a function called areThereDuplicates which accepts a variable number of arguments, and checks whether there are any duplicates among the arguments passed in. Can solve using freq counter or Multiple pointers'
+
+function areThereDuplicates() {
+  let input = {};
+  for (let i = 0; i < arguments.length; i++) {
+    if (input.hasOwnProperty(arguments[i])) {
+      return true;
+    } else {
+      input[arguments[i]] = 1;
+    }
+  }
+  return false;
+}
