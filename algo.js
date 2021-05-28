@@ -152,4 +152,10 @@ function isSubsequence(str1, str2) {
   // if they do continue down string
   //if they dont return false
   //end at end if first string
+  let left = 0;
+  let right = 0;
+
+  while (left < str1.length) if (str1[left] === str2[right]) left++, right++;
+  if (str1[left] === str1.length) return true;
+  else return false;
 }
