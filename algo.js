@@ -58,21 +58,21 @@ function validAnagram(str1, str2) {
 
 //my solution
 
-// function countUniqueValues(arr) {
-//   if (arr.length === 0) return 0;
-//   let left = 0;
-//   let right = 1;
-//   while (right < arr.length) {
-//     if (arr[left] === arr[right]) {
-//       right++;
-//     } else {
-//       left++;
-//       arr[left] = arr[right];
-//       right++;
-//     }
-//   }
-//   return left + 1;
-// }
+function countUniqueValues(arr) {
+  if (arr.length === 0) return 0;
+  let left = 0;
+  let right = 1;
+  while (right < arr.length) {
+    if (arr[left] === arr[right]) {
+      right++;
+    } else {
+      left++;
+      arr[left] = arr[right];
+      right++;
+    }
+  }
+  return left + 1;
+}
 
 //refactor
 
@@ -154,8 +154,11 @@ function isSubsequence(str1, str2) {
   //end at end if first string
   let left = 0;
   let right = 0;
-
-  while (left < str1.length) if (str1[left] === str2[right]) left++, right++;
-  if (str1[left] === str1.length) return true;
-  else return false;
+  if (!str1) return true;
+  while (right < str2.length) {
+    if (str1[left] === str2[right]) left++;
+    if (left === str1.length) return true;
+    right++;
+  }
+  return false;
 }
