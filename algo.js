@@ -193,4 +193,14 @@ function maxSubarraySum(arr, num) {
 // minSubArrayLen([2,3,1,2,4,3], 7) -> 2 (because [4,3] is the smallest subarray)
 // minSubArrayLen([3,1,7,11,2,9,8,21,62,33,19], 52) -> 1 (because 62 is greater than the single int)
 
-function minSubArrayLen(arr, num) {}
+//init
+function minSubArrayLen(arr, num) {
+    let total = 0
+    let start = 0
+    let end = 0 
+    let minlen = Infinity
+
+    while (start < arr.length) {
+        if(total < sum &&)
+    }
+}
