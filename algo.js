@@ -198,7 +198,7 @@ function minSubArrayLen(arr, num) {
   let total = 0;
   let start = 0;
   let end = 0;
-  let minlen = Infinity;
+  let minLen = Infinity;
 
   while (start < arr.length) {
     if (total < sum && end < arr.length) {
