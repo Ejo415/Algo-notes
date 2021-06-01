@@ -214,3 +214,10 @@ function minSubArrayLen(arr, num) {
   }
   return minLen === Infinity ? 0 : minLen;
 }
+
+// Write a function called findLongestSubstring, which accepts a string and returns the length of the longest substring with all the distinct characters
+
+// findLongestSubstring('') -> 0
+// findLongestSubstring('rithmschool') -> 7
+// findLongestSubstring('bbbbbb') -> 1
+// findLongestSubstring('findlongestsubstring') -> 8
