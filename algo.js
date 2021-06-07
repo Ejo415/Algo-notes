@@ -144,7 +144,7 @@ function averagePair(arr, n) {
   return false;
 }
 
-// Write a function called isSubsequence which takes two string and checcks whether the characters in the first string form a subsequence of the characters in the second string. In other words, the function should check whether the characters in the first string appear somewhere in the second string, *without changing the order*
+// Write a function called isSubsequence which takes two string and checks whether the characters in the first string form a subsequence of the characters in the second string. In other words, the function should check whether the characters in the first string appear somewhere in the second string, *without changing the order*
 
 function isSubsequence(str1, str2) {
   //initialize pointers in each string.
@@ -237,4 +237,14 @@ function findLongestSubstring(str) {
     seen[char] = i + 1;
   }
   return longest;
+}
+
+function reverse(x) {
+  let num = x.toString();
+  let newNum = [];
+  for (let i = -1; i > num.length; i--) {
+    console.log(newNum);
+    newNum.push(num[i]);
+  }
+  return newNum;
 }
