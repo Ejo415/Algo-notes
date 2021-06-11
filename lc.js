@@ -13,7 +13,7 @@ function minMaxDiff(arr) {
   result = max - min;
   return result;
 }
-//   result = min - max;
+//   result = max - min;
 //   for (i = 0; i < arr; i++) {
 //     if (i > max) {
 //       i = max;
