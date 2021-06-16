@@ -255,5 +255,9 @@ function subtractProductAndSum(n) {
   let values = n.toString();
   let p = 1;
   let s = 0;
-  
+  for (let i = 0; i < values.length; i++) {
+    p *= values[i];
+    s += parseFloat(values[i]);
+  }
+  return p - s;
 }
