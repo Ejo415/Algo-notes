@@ -259,4 +259,12 @@ let reverse = (x) => {
   let newNum = [];
   let maxInt = Math.pow(2, 31) - 1;
   let minInt = Math.pow(-2, 31);
+
+  for (let i = num.length - 1; i >= 0; i--) {
+    if (num[i] === "-") {
+      newNum.unshift("-");
+    } else {
+      newNum.push(num[i]);
+    }
+  }
 };
