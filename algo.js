@@ -239,16 +239,6 @@ function findLongestSubstring(str) {
   return longest;
 }
 
-function reverse(x) {
-  let num = x.toString();
-  let newNum = [];
-  for (let i = -1; i > num.length; i--) {
-    console.log(newNum);
-    newNum.push(num[i]);
-  }
-  return newNum;
-}
-
 // Given an integer number n, return the difference between the product of its digits and the sum of its digits.
 
 function subtractProductAndSum(n) {
