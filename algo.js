@@ -267,4 +267,11 @@ let reverse = (x) => {
       newNum.push(num[i]);
     }
   }
+  let result = newNum.join("");
+  parseFloat(result);
+  console.log(result);
+  if (result > maxInt || result < minInt) {
+    result = 0;
+  }
+  return result;
 };
