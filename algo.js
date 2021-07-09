@@ -284,4 +284,7 @@ let reverse = (x) => {
 
 // The maximum height candles are 4 units high. There are 2 of them, so return 2.
 
-const birthdayCakeCandles = () => {};
+const birthdayCakeCandles = () => {
+  let maxHeight = 0;
+  let count = 0;
+};
