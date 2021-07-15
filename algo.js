@@ -302,4 +302,5 @@ function birthdayCakeCandles(candles) {
 
 function simpleArraySum(ar) {
   let res = 0;
+  for (let num of ar){
 }
