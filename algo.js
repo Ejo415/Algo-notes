@@ -314,4 +314,7 @@ function simpleArraySum(ar) {
 
 // You can return the answer in any order.
 
-const twoSum = function (nums, target) {};
+const twoSum = function (nums, target) {
+  let numIndex = new Map();
+  let res = [];
+};
