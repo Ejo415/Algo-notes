@@ -317,4 +317,7 @@ function simpleArraySum(ar) {
 const twoSum = function (nums, target) {
   let numIndex = new Map();
   let res = [];
+  for (let i = 0; i < nums.length; i++){
+    let num = nums[i];
+    let complement = target - num;
 };
