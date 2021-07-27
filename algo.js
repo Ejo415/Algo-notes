@@ -337,4 +337,7 @@ const twoSum = function (nums, target) {
 
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-var maxProfit = function (prices) {};
+var maxProfit = function (prices) {
+  let minBuyPrice = Infinity;
+  let maxProfit = 0;
+};
