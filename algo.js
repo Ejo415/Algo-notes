@@ -340,4 +340,8 @@ const twoSum = function (nums, target) {
 var maxProfit = function (prices) {
   let minBuyPrice = Infinity;
   let maxProfit = 0;
+
+  for (let price of prices){
+    if (price < minBuyPrice){
+        minBuyPrice = price
 };
