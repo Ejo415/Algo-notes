@@ -365,4 +365,11 @@ var firstUniqChar = function (s) {
       frequencies[char]++;
     }
   }
+  for (let i = 0; i < s.length; i++) {
+    let char = s.charAt(i);
+
+    if (frequencies[char] === 1) {
+      return i;
+    }
+  }
 };
