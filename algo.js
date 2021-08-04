@@ -372,4 +372,5 @@ var firstUniqChar = function (s) {
       return i;
     }
   }
+  return result;
 };
