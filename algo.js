@@ -354,4 +354,7 @@ var maxProfit = function (prices) {
 
 // Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
-var firstUniqChar = function (s) {};
+var firstUniqChar = function (s) {
+  let frequencies = {};
+  let result = -1;
+};
