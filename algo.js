@@ -379,4 +379,7 @@ var firstUniqChar = function (s) {
 
 var intersection = function (nums1, nums2) {
   let firstSet = new Set();
+  for (let num of nums1) {
+    firstSet.add(num);
+  }
 };
