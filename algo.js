@@ -382,4 +382,5 @@ var intersection = function (nums1, nums2) {
   for (let num of nums1) {
     firstSet.add(num);
   }
+  let commonSet = new Set();
 };
