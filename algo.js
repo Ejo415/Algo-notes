@@ -389,4 +389,5 @@ var intersection = function (nums1, nums2) {
       commonSet.add(num);
     }
   }
+  return Array.from(commonSet);
 };
